@@ -1,0 +1,418 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Ahmadou ASTADJAM",
+      "character": "Daisy",
+      "birthDate": "1998-01-15",
+      "birthPlace": "Yaoundé",
+      "nationality": "Cameroonian",
+      "strengths": [
+        "Python programming",
+        "Database management",
+        "Problem-solving"
+      ],
+      "weaknesses": [
+        "Mobile development",
+        "DevOps"
+      ],
+      "funFact": "Always chooses Daisy in Mario Kart!"
+    },
+    {
+      "id": 2,
+      "name": "Romain BALZANO",
+      "character": "Morton",
+      "birthDate": "1999-03-22",
+      "birthPlace": "Nice",
+      "nationality": "French",
+      "strengths": [
+        "JavaScript",
+        "React",
+        "Front-end development"
+      ],
+      "weaknesses": [
+        "Python",
+        "Database design"
+      ],
+      "funFact": "Can't play Mario Kart without Morton!"
+    },
+    {
+      "id": 3,
+      "name": "Yahaya BATHILY",
+      "character": "Bowser",
+      "birthDate": "2002-02-17",
+      "birthPlace": "Mali",
+      "nationality": "Malian",
+      "strengths": [
+        "Java",
+        "Backend Development",
+        "Algorithms"
+      ],
+      "weaknesses": [
+        "Frontend Design",
+        "Mobile Development"
+      ],
+      "funFact": "Says Bowser's strength matches his code robustness"
+    },
+    {
+      "id": 4,
+      "name": "Louiza BELARIF",
+      "character": "Lakitu",
+      "birthDate": "1995-08-21",
+      "birthPlace": "Algiers",
+      "nationality": "Algerian",
+      "strengths": [
+        "Python",
+        "Data Analysis",
+        "Cloud Computing"
+      ],
+      "weaknesses": [
+        "Web Development",
+        "UI Design"
+      ],
+      "funFact": "Like Lakitu, always keeps an eye on the code from above"
+    },
+    {
+      "id": 5,
+      "name": "Kaoutar BENAMEUR",
+      "character": "Rosalina",
+      "birthDate": "1999-06-19",
+      "birthPlace": "Algiers",
+      "nationality": "Algerian",
+      "strengths": [
+        "Full Stack Development",
+        "Project Management",
+        "System Design"
+      ],
+      "weaknesses": [
+        "Game Development",
+        "Low-level Programming"
+      ],
+      "funFact": "Channels Rosalina's grace in writing elegant code"
+    },
+    {
+      "id": 6,
+      "name": "Ilyas BENSALEM",
+      "character": "Larry",
+      "birthDate": "1999-04-18",
+      "birthPlace": "Lyon",
+      "nationality": "French",
+      "strengths": [
+        "DevOps",
+        "Cloud Architecture",
+        "System Administration"
+      ],
+      "weaknesses": [
+        "Frontend Design",
+        "Mobile Development"
+      ],
+      "funFact": "Larry's agility reflects in his quick deployment skills"
+    },
+    {
+      "id": 7,
+      "name": "Thomas BOVY",
+      "character": "Shy Guy",
+      "birthDate": "2000-08-25",
+      "birthPlace": "Ajaccio",
+      "nationality": "French",
+      "strengths": [
+        "Backend Development",
+        "Database Design",
+        "API Architecture"
+      ],
+      "weaknesses": [
+        "UI/UX Design",
+        "Mobile Apps"
+      ],
+      "funFact": "Like Shy Guy, prefers to work quietly behind the scenes"
+    },
+    {
+      "id": 8,
+      "name": "Anthony COLIN",
+      "character": "Lemmy",
+      "birthDate": "2002-03-11",
+      "birthPlace": "Ajaccio",
+      "nationality": "French",
+      "strengths": [
+        "Frontend Development",
+        "React",
+        "UI Animation"
+      ],
+      "weaknesses": [
+        "Backend Architecture",
+        "System Administration"
+      ],
+      "funFact": "Brings Lemmy's playful energy to his code"
+    },
+    {
+      "id": 9,
+      "name": "Marie EVEILLE",
+      "character": "Toadette",
+      "birthDate": "2001-08-09",
+      "birthPlace": "Quimper",
+      "nationality": "French",
+      "strengths": [
+        "UX Design",
+        "Frontend Architecture",
+        "Web Accessibility"
+      ],
+      "weaknesses": [
+        "Backend Development",
+        "Database Management"
+      ],
+      "funFact": "Toadette's enthusiasm matches her passion for user experience"
+    },
+    {
+      "id": 10,
+      "name": "Donat FORTINI",
+      "character": "Waluigi",
+      "birthDate": "2000-11-28",
+      "birthPlace": "Porto-Vecchio",
+      "nationality": "French",
+      "strengths": [
+        "Algorithm Design",
+        "Problem Solving",
+        "Data Structures"
+      ],
+      "weaknesses": [
+        "UI Design",
+        "Cloud Services"
+      ],
+      "funFact": "Uses Waluigi's unconventional approach to solve problems"
+    },
+    {
+        "id": 11,
+        "name": "Thomas GARAU",
+        "character": "Toad",
+        "birthDate": "1999-06-01",
+        "birthPlace": "Nice",
+        "nationality": "French",
+        "strengths": [
+          "JavaScript",
+          "Web Development",
+          "Frontend Frameworks"
+        ],
+        "weaknesses": [
+          "Database Design",
+          "System Architecture"
+        ],
+        "funFact": "Believes Toad's mushroom gives extra coding speed"
+      },
+      {
+        "id": 12,
+        "name": "Livia GRAZIETTI",
+        "character": "Wendy",
+        "birthDate": "1999-08-20",
+        "birthPlace": "Nice",
+        "nationality": "French",
+        "strengths": [
+          "UI/UX Design",
+          "CSS Animation",
+          "React"
+        ],
+        "weaknesses": [
+          "Backend Development",
+          "Server Configuration"
+        ],
+        "funFact": "Wendy's style matches her design philosophy"
+      },
+      {
+        "id": 13,
+        "name": "Yasmine HAMADENE",
+        "character": "Peach",
+        "birthDate": "2000-04-02",
+        "birthPlace": "Bejaia",
+        "nationality": "Algerian",
+        "strengths": [
+          "Java",
+          "Software Architecture",
+          "Project Management"
+        ],
+        "weaknesses": [
+          "Frontend Design",
+          "Mobile Development"
+        ],
+        "funFact": "Says Peach's float ability helps her navigate complex code"
+      },
+      {
+        "id": 14,
+        "name": "Mohamed ISMAEL OTBAN",
+        "character": "Luigi",
+        "birthDate": "2002-O1-21",
+        "birthPlace": "Djibouti",
+        "nationality": "Djiboutian",
+        "strengths": [
+          "Python",
+          "Data Analysis",
+          "Machine Learning"
+        ],
+        "weaknesses": [
+          "Web Design",
+          "Cloud Services"
+        ],
+        "funFact": "Like Luigi, prefers to work behind the scenes"
+      },
+      {
+        "id": 15,
+        "name": "Pouwedeou KILIMOU",
+        "character": "Roy",
+        "birthDate": "1999-01-30",
+        "birthPlace": "Lome",
+        "nationality": "Togolese",
+        "strengths": [
+          "Full Stack Development",
+          "Node.js",
+          "MongoDB"
+        ],
+        "weaknesses": [
+          "Mobile Development",
+          "UI Design"
+        ],
+        "funFact": "Chose Roy for his competitive spirit"
+      },
+      {
+        "id": 16,
+        "name": "Lucas LECULIER",
+        "character": "Yoshi",
+        "birthDate": "1999-07-18",
+        "birthPlace": "Corte",
+        "nationality": "French",
+        "strengths": [
+          "DevOps",
+          "Cloud Architecture",
+          "Docker"
+        ],
+        "weaknesses": [
+          "Frontend Development",
+          "Mobile Apps"
+        ],
+        "funFact": "Claims Yoshi's egg throwing improves his debugging skills"
+      },
+      {
+        "id": 17,
+        "name": "Anthony MARCHISELLI",
+        "character": "Villager",
+        "birthDate": "2001-04-29",
+        "birthPlace": "Ajaccio",
+        "nationality": "French",
+        "strengths": [
+          "React Native",
+          "Mobile Development",
+          "API Design"
+        ],
+        "weaknesses": [
+          "Database Optimization",
+          "System Administration"
+        ],
+        "funFact": "Villager's resourcefulness inspires his coding approach"
+      },
+      {
+        "id": 18,
+        "name": "Antoine MARECHAL-BALLE",
+        "character": "Mario",
+        "birthDate": "2003-04-24",
+        "birthPlace": "Evreux",
+        "nationality": "French",
+        "strengths": [
+          "Java",
+          "Spring Boot",
+          "Microservices"
+        ],
+        "weaknesses": [
+          "Frontend Design",
+          "UX Development"
+        ],
+        "funFact": "Like Mario, always aims to be the most versatile"
+      },
+      {
+        "id": 19,
+        "name": "Theo PIACENTINI",
+        "character": "Wario",
+        "birthDate": "1999-04-08",
+        "birthPlace": "Nice",
+        "nationality": "French",
+        "strengths": [
+          "C++",
+          "Game Development",
+          "Graphics Programming"
+        ],
+        "weaknesses": [
+          "Web Development",
+          "Cloud Services"
+        ],
+        "funFact": "Says Wario's unconventional style matches his coding approach"
+      },
+      {
+        "id": 20,
+        "name": "Vitalii RENKAS",
+        "character": "Link",
+        "birthDate": "1999-02-15",
+        "birthPlace": "Mosko",
+        "nationality": "Russian",
+        "strengths": [
+          "Algorithm Design",
+          "Problem Solving",
+          "Backend Development"
+        ],
+        "weaknesses": [
+          "UI Design",
+          "Mobile Development"
+        ],
+        "funFact": "Like Link, always ready for new coding adventures"
+      },
+      {
+        "id": 21,
+        "name": "Pascal VIGNEAU",
+        "character": "Koopa",
+        "birthDate": "2002-04-29",
+        "birthPlace": "Ajaccio",
+        "nationality": "French",
+        "strengths": [
+          "Security",
+          "Network Programming",
+          "System Architecture"
+        ],
+        "weaknesses": [
+          "Frontend Development",
+          "Mobile Apps"
+        ],
+        "funFact": "Koopa's shell reminds him of secure code encapsulation"
+      },
+      {
+        "id": 22,
+        "name": "Paul-antoine VINCIGUERRA",
+        "character": "Ludwig",
+        "birthDate": "1999-12-03",
+        "birthPlace": "Bastia",
+        "nationality": "French",
+        "strengths": [
+          "Angular",
+          "TypeScript",
+          "Frontend Architecture"
+        ],
+        "weaknesses": [
+          "Database Design",
+          "DevOps"
+        ],
+        "funFact": "Picked Ludwig for his sophisticated coding style"
+      },
+      {
+        "id": 23,
+        "name": "Chaker YAAKOUB",
+        "character": "DK",
+        "birthDate": "1999-06-28",
+        "birthPlace": "Beirut",
+        "nationality": "Lebanese",
+        "strengths": [
+          "Data Science",
+          "Machine Learning",
+          "Python"
+        ],
+        "weaknesses": [
+          "Frontend Design",
+          "Mobile Development"
+        ],
+        "funFact": "Like DK, brings strength and agility to coding challenges"
+      }
+  ]
+} 

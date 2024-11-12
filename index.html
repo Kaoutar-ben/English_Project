@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master 2 Classe 2024-2025</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; }
+        .container { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 16px; max-width: 850px; margin: 0 auto; }
+        .card { width: 150px; background: white; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); text-align: center; overflow: hidden; }
+        .card .image-container { position: relative; width: 100%; }
+        .card .image-hover { 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .card:hover .image-hover { opacity: 1; }
+        .card:hover .image-main { opacity: 0; }
+        .card img { 
+            width: 100%; 
+            border-top-left-radius: 8px; 
+            border-top-right-radius: 8px; 
+            transition: all 0.3s ease;
+        }
+        .card h3 { margin: 10px 0; font-size: 18px; }
+        .card p { font-size: 14px; color: #666; }
+        .card a { text-decoration: none; color: inherit; }
+        .author-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #007bff;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        
+        .author-button:hover {
+            background: #0056b3;
+            transform: translateY(2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .author-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Master 2 Classe 2024-2025</h1>
+    <div class="container">
+        <div class="card">
+            <a href="details-etudiant1.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Daisy_Icon.png" alt="Étudiant 1">
+                    <img class="image-hover" src="m2/ASTADJAM.png" alt="Étudiant 1 hover">
+                </div>
+                <h3>Daisy</h3>
+                <p>Ahmadou ASTADJAM</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant2.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Morton_Icon.png" alt="Étudiant 2">
+                    <img class="image-hover" src="m2/BALZANO.png" alt="Étudiant 2 hover">
+                </div>
+                <h3>Morton</h3>
+                <p>Romain BALZANO</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant3.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Bowser_Icon.png" alt="Étudiant 3">
+                    <img class="image-hover" src="m2/BATHILY.png" alt="Étudiant 3 hover">
+                </div>
+                <h3>Bowser</h3>
+                <p>Yahaya BATHILY</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant4.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Lakitu_Icon.png" alt="Étudiant 4">
+                    <img class="image-hover" src="m2/BELARIF.png" alt="Étudiant 4 hover">
+                </div>
+                <h3>Lakitu</h3>
+                <p>Louiza BELARIF</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant5.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Rosalina_Icon.png" alt="Étudiant 5">
+                    <img class="image-hover" src="m2/BENAMEUR.png" alt="Étudiant 5 hover">
+                </div>
+                <h3>Rosalina</h3>
+                <p>Kaoutar BENAMEUR</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant6.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Larry_Icon.png" alt="Étudiant 6">
+                    <img class="image-hover" src="m2/BENSALEM.png" alt="Étudiant 6 hover">
+                </div>
+                <h3>Larry</h3>
+                <p>Ilyas BENSALEM</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant7.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_ShyGuy_Icon.png" alt="Étudiant 7">
+                    <img class="image-hover" src="m2/BOVY.png" alt="Étudiant 7 hover">
+                </div>
+                <h3>Shy Guy</h3>
+                <p>Thomas BOVY</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant8.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Lemmy_Icon.png" alt="Étudiant 8">
+                    <img class="image-hover" src="m2/COLIN.png" alt="Étudiant 8 hover">
+                </div>
+                <h3>Lemmy</h3>
+                <p>Anthony COLIN</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant9.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Toadette_Icon.png" alt="Étudiant 9">
+                    <img class="image-hover" src="m2/EVEILLE.png" alt="Étudiant 9 hover">
+                </div>
+                <h3>Toadette</h3>
+                <p>Marie EVEILLE</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant10.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Waluigi_Icon.png" alt="Étudiant 10">
+                    <img class="image-hover" src="m2/FORTINI.png" alt="Étudiant 10 hover">
+                </div>
+                <h3>Waluigi</h3>
+                <p>Donat FORTINI</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant11.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Toad_Icon.png" alt="Étudiant 11">
+                    <img class="image-hover" src="m2/GARAU.png" alt="Étudiant 11 hover">
+                </div>
+                <h3>Toad</h3>
+                <p>Thomas GARAU</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant12.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Wendy_Icon.png" alt="Étudiant 12">
+                    <img class="image-hover" src="m2/GRAZIETTI.png" alt="Étudiant 12 hover">
+                </div>
+                <h3>Wendy</h3>
+                <p>Livia GRAZIETTI</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant13.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Peach_Icon.png" alt="Étudiant 13">
+                    <img class="image-hover" src="m2/HAMADENE.png" alt="Étudiant 13 hover">
+                </div>
+                <h3>Peach</h3>
+                <p>Yasmine HAMADENE</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant14.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Luigi_Icon.png" alt="Étudiant 14">
+                    <img class="image-hover" src="m2/ISMAEL.png" alt="Étudiant 14 hover">
+                </div>
+                <h3>Luigi</h3>
+                <p>Mohamed ISMAEL OTBAN</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant15.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Roy_Icon.png" alt="Étudiant 15">
+                    <img class="image-hover" src="m2/KILIMOU.png" alt="Étudiant 15 hover">
+                </div>
+                <h3>Roy</h3>
+                <p>Pouwedeou KILIMOU</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant16.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Yoshi_Icon.png" alt="Étudiant 16">
+                    <img class="image-hover" src="m2/LECULIER.jpg" alt="Étudiant 16 hover">
+                </div>
+                <h3>Yoshi</h3>
+                <p>Lucas LECULIER</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant17.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/VillagerMale-Icon-MK8.png" alt="Étudiant 17">
+                    <img class="image-hover" src="m2/MARCHISELLI.png" alt="Étudiant 17 hover">
+                </div>
+                <h3>Villager</h3>
+                <p>Anthony MARCHISELLI</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant18.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Mario_Icon.png" alt="Étudiant 18">
+                    <img class="image-hover" src="m2/MARECHAL.png" alt="Étudiant 18 hover">
+                </div>
+                <h3>Mario</h3>
+                <p>Antoine MARECHAL-BALLE</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant19.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Wario_Icon.png" alt="Étudiant 19">
+                    <img class="image-hover" src="m2/PIACENTINI.png" alt="Étudiant 19 hover">
+                </div>
+                <h3>Wario</h3>
+                <p>Theo PIACENTINI</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant20.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Link_Icon.png" alt="Étudiant 20">
+                    <img class="image-hover" src="m2/RENKAS.png" alt="Étudiant 20 hover">
+                </div>
+                <h3>Link</h3>
+                <p>Vitalii RENKAS</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant21.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Koopa_Icon.png" alt="Étudiant 21">
+                    <img class="image-hover" src="m2/VIGNEAU.png" alt="Étudiant 21 hover">
+                </div>
+                <h3>Koopa</h3>
+                <p>Pascal VIGNEAU</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant22.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_Ludwig_Icon.png" alt="Étudiant 22">
+                    <img class="image-hover" src="m2/VINCIGUERRA.png" alt="Étudiant 22 hover">
+                </div>
+                <h3>Ludwig</h3>
+                <p>Paul-antoine VINCIGUERRA</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="details-etudiant23.html">
+                <div class="image-container">
+                    <img class="image-main" src="icons/MK8_DKong_Icon.png" alt="Étudiant 23">
+                    <img class="image-hover" src="m2/CHAKER.png" alt="Étudiant 23 hover">
+                </div>
+                <h3>DK</h3>
+                <p>Chaker YAAKOUB</p>
+            </a>
+        </div>
+    </div>
+    <a href="details-kaoutar.html" class="author-button">
+        <img src="m2/BENAMEUR.png" alt="Author" class="author-icon">
+        About Me
+    </a>
+</body>
+</html>

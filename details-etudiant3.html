@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details - Yahaya BATHILY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .profile-image {
+            width: 200px;
+            border-radius: 10px;
+        }
+        .character-image {
+            width: 100px;
+        }
+        .info-section {
+            margin-bottom: 25px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 10px;
+        }
+        .skills-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background: #0056b3;
+        }
+        .fun-fact {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #007bff;
+        }
+        .flag-icon {
+            width: 20px;
+            height: 15px;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+        .nationality-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <a href="index.html" class="back-button">← Back to list</a>
+        
+        <div class="header">
+            <img src="m2/BATHILY.png" alt="Student photo" class="profile-image">
+            <div>
+                <h1>Yahaya BATHILY</h1>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <img src="icons/MK8_Bowser_Icon.png" alt="Character" class="character-image">
+                    <span>Bowser</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Personal Information</h2>
+            <div class="info-grid">
+                <span>Date of Birth:</span>
+                <span>2002-02-17</span>
+                
+                <span>Place of Birth:</span>
+                <span>Mali</span>
+                
+                <span>Nationality:</span>
+                <span class="nationality-container">
+                    Malian
+                    <img src="https://flagcdn.com/w20/ml.png" alt="Malian flag" class="flag-icon">
+                </span>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Skills Profile</h2>
+            <div class="skills-container">
+                <div>
+                    <h3>Strengths</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Backend Development</li>
+                        <li>Algorithms</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Areas for Improvement</h3>
+                    <ul>
+                        <li>Frontend Design</li>
+                        <li>Mobile Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="fun-fact">
+            <h3>Fun Fact</h3>
+            <p>Says Bowser's strength matches his code robustness</p>
+        </div>
+    </div>
+</body>
+</html>
